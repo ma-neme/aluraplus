@@ -101,6 +101,10 @@ body {
     padding: 2em;
 }
 
+.dispositivos {
+    text-align: center;
+}
+
 .dispositivos__lista {
     display: flex;
     justify-content: center;
@@ -112,7 +116,6 @@ body {
 .dispositivos__titulo {
     font-size: 48px;
     color: var(--branco-principal);
-    text-align: center;
 }
 
 .lista__item {
@@ -122,6 +125,7 @@ body {
 
 .rodape {
     text-align: center;
+    margin: 5em 3em;
 }
 
 .rodape__logo {
@@ -132,6 +136,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin-top: 1em;
 }
 
 .rodape__lista a {
